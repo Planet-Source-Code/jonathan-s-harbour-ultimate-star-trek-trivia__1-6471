@@ -1,0 +1,18 @@
+[Version]
+Version=3.0.0.21
+
+[Editor.exe <0009>]
+Dest=$(AppPath)
+Date=2/12/99
+Time=12:31
+Version=3.0.0.21
+CABFilename=Editor.CAB
+CABINFFile=Editor.INF
+Uses1=msvbvm60.dll
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=stdole2.tlb
+Uses6=COMCAT.DLL
+Uses7=Cpuinf32.dll
+Uses8=RICHTX32.OCX
