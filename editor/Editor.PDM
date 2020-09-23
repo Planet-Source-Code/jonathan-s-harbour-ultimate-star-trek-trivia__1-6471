@@ -1,0 +1,72 @@
+[Root]
+Most Recent Package=Trivia Editor Dependencies
+
+
+[Package|Trivia Editor Dependencies|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=G:\Personal Projects\Ultimate Trivia\Star Trek
+
+[Package|Trivia Editor Dependencies|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Trivia Editor Dependencies|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Trivia Editor Dependencies|Files Found]
+Cpuinf32.dll=G:\Personal Projects\library\Cpuinf32.dll
+
+[Package|Trivia Editor Dependencies|Files Released]
+
+[Package|Trivia Editor Dependencies|Missing Dependency Information]
+
+[Package|Trivia Editor Dependencies|Out-of-Date Dependency Information]
+
+[Package|Trivia Editor Dependencies|Files Added]
+
+[Package|Trivia Editor Dependencies|Files Removed]
+
+[Package|Trivia Editor Dependencies|Files In Project]
+G:\Personal Projects\Ultimate Trivia\Star Trek\Editor.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+G:\Personal Projects\library\Cpuinf32.dll=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+
+[Package|Trivia Editor Dependencies|Configure Registry Files]
+Applicable=
+
+[Package|Trivia Editor Dependencies|Configure Remote Servers]
+Applicable=
+
+[Package|Trivia Editor Dependencies|Install Locations]
+G:\Personal Projects\Ultimate Trivia\Star Trek\Editor.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+G:\Personal Projects\library\Cpuinf32.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+
+[Package|Trivia Editor Dependencies|Configure Shared Files]
+Applicable=
+
+[Package|Trivia Editor Dependencies|DepFile]
+DepCabFile=Editor.CAB
+DepCabRun=Editor.INF
+
+[Package|Trivia Editor Dependencies|Package]
+PackageFolder=G:\Personal Projects\Ultimate Trivia\Star Trek
+ProjectFolder=G:\Personal Projects\Ultimate Trivia\editor
+ServerSideCab=
+File1=G:\Personal Projects\Ultimate Trivia\Star Trek\Editor.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
